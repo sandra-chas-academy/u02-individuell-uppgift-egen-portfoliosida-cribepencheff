@@ -99,3 +99,7 @@ svg, img {
 .hide {
   display: none;
 }
+
+.text-right {
+  text-align: right;
+}

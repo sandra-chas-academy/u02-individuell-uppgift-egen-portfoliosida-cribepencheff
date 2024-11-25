@@ -15,12 +15,12 @@
 }
 
 .work-experience article > *:not(.job-title),
-.education article > *:not(.education-degree) {
+.education article > *:not(.education__degree) {
   font-weight: 600;
 }
 
 .job-title,
-.education-degree {
+.education__degree {
   flex-basis: 100%;
   font-weight: 400;
   color: var(--color-gray-drk);

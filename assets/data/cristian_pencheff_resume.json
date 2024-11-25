@@ -1,39 +1,4 @@
 {
-  "education": [
-    {
-      "title": "Avid Media Composer Specialist",
-      "workplace": "Avid",
-      "location": "Stockholm, Sweden",
-      "duration": "2024-05-20 - 2024-07-02",
-      "detail": "Full-time",
-      "credits": "Avid Certified | Media Composer Specialist",
-      "skills": [
-        "Avid Media Composer",
-        "Apple Final Cut Pro",
-        "Adobe Premiere Pro",
-        "DaVinci Resolve",
-        "Adobe After Effects"
-      ]
-    },
-    {
-      "title": "Kort YH-kurs i TypeScript",
-      "workplace": "Medieinstitutet",
-      "location": "Stockholm, Sweden",
-      "duration": "2024-03-18 - 2024-05-24",
-      "detail": "Full-time",
-      "credits": "25 YH-poäng"
-    },
-    {
-      "title": "Upper Secondary School, Esthetic Program, Art and Design",
-      "workplace": "Tensta Gymnasium",
-      "location": "Stockholm, Sweden",
-      "duration": "1994 - 1997",
-      "detail": "Full-time",
-      "skills": [
-        "Final Project: Developed a comprehensive guide on how to code and publish a webpage"
-      ]
-    }
-  ],
   "work_experience": [
     {
       "title": "Graphic Designer & Frontend Developer",
@@ -97,6 +62,41 @@
       "location": "Stockholm, Sweden",
       "duration": "1998 - 1999",
       "detail": "Full-time"
+    }
+  ],
+  "education": [
+    {
+      "title": "Avid Media Composer Specialist",
+      "workplace": "Avid",
+      "location": "Stockholm, Sweden",
+      "duration": "2024-05-20 - 2024-07-02",
+      "detail": "Full-time",
+      "credits": "Avid Certified | Media Composer Specialist",
+      "skills": [
+        "Avid Media Composer",
+        "Apple Final Cut Pro",
+        "Adobe Premiere Pro",
+        "DaVinci Resolve",
+        "Adobe After Effects"
+      ]
+    },
+    {
+      "title": "Kort YH-kurs i TypeScript",
+      "workplace": "Medieinstitutet",
+      "location": "Stockholm, Sweden",
+      "duration": "2024-03-18 - 2024-05-24",
+      "detail": "Full-time",
+      "credits": "25 YH-poäng"
+    },
+    {
+      "title": "Upper Secondary School, Esthetic Program, Art and Design",
+      "workplace": "Tensta Gymnasium",
+      "location": "Stockholm, Sweden",
+      "duration": "1994 - 1997",
+      "detail": "Full-time",
+      "skills": [
+        "Final Project: Developed a comprehensive guide on how to code and publish a webpage"
+      ]
     }
   ]
 }
