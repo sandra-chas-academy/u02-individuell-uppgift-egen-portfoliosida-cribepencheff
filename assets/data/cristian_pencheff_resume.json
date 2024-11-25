@@ -1,0 +1,92 @@
+{
+  "education": [
+    {
+      "title": "Avid Media Composer Specialist",
+      "workplace": "Avid",
+      "location": "Stockholm, Sweden",
+      "duration": "2024-05-20 - 2024-07-02",
+      "detail": "Full-time",
+      "credits": "Avid Certified | Media Composer Specialist",
+      "skills": [
+        "Avid Media Composer",
+        "Apple Final Cut Pro",
+        "Adobe Premiere Pro",
+        "DaVinci Resolve",
+        "Adobe After Effects"
+      ]
+    },
+    {
+      "title": "Kort YH-kurs i TypeScript",
+      "workplace": "Medieinstitutet",
+      "location": "Stockholm, Sweden",
+      "duration": "2024-03-18 - 2024-05-24",
+      "detail": "Full-time",
+      "credits": "25 YH-poäng"
+    }
+  ],
+  "work_experience": [
+    {
+      "title": "Graphic Designer & Frontend Developer",
+      "workplace": "Yabie AB / Cliento.com",
+      "location": "Stockholm, Sweden",
+      "duration": "2023 - 2023.Q4",
+      "detail": "Full-time"
+    },
+    {
+      "title": "Graphic Designer & Frontend Developer",
+      "workplace": "Nvrmind AB",
+      "location": "Stockholm, Sweden",
+      "duration": "2021 - 2023",
+      "detail": "Full-time"
+    },
+    {
+      "title": "Frontend Lead & Graphic Designer",
+      "workplace": "Reform Society AB / Reform Experience",
+      "location": "Stockholm, Sweden",
+      "duration": "2016 - 2018",
+      "detail": "Full-time"
+    },
+    {
+      "title": "Frontend Lead & Graphic Designer",
+      "workplace": "Reform Society AB / Reform Dev",
+      "location": "Stockholm, Sweden",
+      "duration": "2016 - 2018",
+      "detail": "Full-time"
+    },
+    {
+      "title": "Frontend Developer & Graphic Designer",
+      "workplace": "Reformklubben i Stockholm AB",
+      "location": "Stockholm, Sweden",
+      "duration": "2015 - 2016",
+      "detail": "Full-time"
+    },
+    {
+      "title": "Self-employed",
+      "workplace": "Self-employed",
+      "location": "Stockholm, Sweden",
+      "duration": "2001 - 2011",
+      "detail": "Self-employed"
+    },
+    {
+      "title": "Frontend Developer & Graphic Designer",
+      "workplace": "Abel & Baker",
+      "location": "Stockholm, Sweden",
+      "duration": "2000 - 2001",
+      "detail": "Full-time"
+    },
+    {
+      "title": "Frontend Developer & Graphic Designer",
+      "workplace": "Starlet Deluxe AB",
+      "location": "Stockholm, Sweden",
+      "duration": "1999 - 2000",
+      "detail": "Full-time"
+    },
+    {
+      "title": "Frontend Developer & Graphic Designer",
+      "workplace": "Nation Wide Digital Media",
+      "location": "Stockholm, Sweden",
+      "duration": "1998 - 1999",
+      "detail": "Full-time"
+    }
+  ]
+}
