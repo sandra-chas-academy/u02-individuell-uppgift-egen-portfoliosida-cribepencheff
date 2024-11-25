@@ -1,0 +1,21 @@
+footer {
+  margin-top: auto;
+}
+
+footer .inner-footer {
+  color: var(--color-gray);
+  margin: calc(var(--spacing-xl) * 1.5) 0 var(--spacing-xl);
+  text-align: center;
+}
+
+/* Desktop Up */
+@media (width > 82.5rem) {
+  footer .inner-footer {
+    margin-top: calc(var(--spacing-xl) * 3);
+  }
+
+  body.tech-stack footer .inner-footer,
+  body.projects footer .inner-footer {
+    margin-top: calc(var(--spacing-xl) * 1.5);
+  }
+}

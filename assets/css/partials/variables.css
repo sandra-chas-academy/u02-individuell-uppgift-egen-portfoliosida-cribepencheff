@@ -1,0 +1,33 @@
+:root {
+  --color-white: #FFFFFF;
+  --color-black: #42446E;
+  --color-black-drk: #000000;
+  --color-gray-lgt: #EBEAED;
+  --color-gray: #A7A7A7;
+  --color-gray-drk: #666666;
+  --color-green: #018C0F;
+  --color-green-lgt: #D7FFE0;
+  --color-yellow: #e9d14e;
+
+  --spacing-xs: 0.4rem;
+  --spacing-sm: 0.6rem;
+  --spacing-md: 1.2rem;
+  --spacing-lg: 1.85rem;
+  --spacing-xl: 3.6rem;
+
+  --header-size-md: 1.4rem;
+  --header-size-lg: 1.8rem;
+  --header-size-xl: 2.6rem;
+  --header-size-xxl: 3.61rem;
+
+  --font-size-xs: 0.5625rem;
+  --font-size-sm: 0.75rem;
+  --font-size-md: 1rem;
+  --font-size-lg: 1.125rem;
+
+  --gradient-horizontal: linear-gradient(to right, #00C0FD, #E70FAA);
+  --gradient-vertical: linear-gradient(to bottom, #E70FAA , #00C0FD);
+
+  --theme-drk-bg: #2e2e3c;
+  --theme-drk-headings: var(--color-white);
+}
