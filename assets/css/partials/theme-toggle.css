@@ -1,0 +1,138 @@
+/* Base */
+.color-theme-wrapper {
+  background-color: var(--color-white);
+}
+
+#theme-toggle {
+  display: none;
+}
+
+label[for="theme-toggle"] {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--font-size-lg);
+  bottom: var(--spacing-md);
+  right: var(--spacing-md);
+  width: 1.72rem;
+  height: 1.72rem;
+  border-radius: 100%;
+  backdrop-filter: blur(10px);
+  cursor: pointer;
+}
+
+#theme-toggle:not(:checked) ~
+label[for="theme-toggle"] {
+  background-color: rgba(255, 255, 255, .2);
+  backdrop-filter: blur(10px);
+  color: var(--color-black);
+  border: 2px solid var(--color-black);
+}
+
+#theme-toggle:not(:checked) ~
+label[for="theme-toggle"] .theme-light-icon {
+  display: none;
+}
+
+#theme-toggle:checked ~
+label[for="theme-toggle"] {
+  background-color: rgba(46, 46, 60, .2);
+  color: var(--color-yellow);
+  border: 2px solid var(--color-yellow);
+}
+
+#theme-toggle:checked ~
+label[for="theme-toggle"] .theme-dark-icon {
+  display: none;
+  background-color: var(--theme-drk-bg);
+  border: 2px solid var(--color-yellow);
+}
+
+#theme-toggle:checked ~ .color-theme-wrapper,
+#theme-toggle:checked ~ .color-theme-wrapper #menu {
+  background-color: var(--theme-drk-bg);
+}
+
+#theme-toggle:checked ~ .color-theme-wrapper h1,
+#theme-toggle:checked ~ .color-theme-wrapper h2,
+#theme-toggle:checked ~ .color-theme-wrapper h3,
+#theme-toggle:checked ~ .color-theme-wrapper h4,
+#theme-toggle:checked ~ .color-theme-wrapper h5,
+#theme-toggle:checked ~ .color-theme-wrapper h6 {
+  color: var(--theme-drk-headings);
+}
+
+/* Navigation */
+#theme-toggle:checked ~ .color-theme-wrapper
+.menu__toggle-icon i {
+  color: var(--color-gray-lgt);
+}
+
+#theme-toggle:checked ~ .color-theme-wrapper
+#menu li a {
+  color: var(--color-gray-lgt);
+}
+
+#theme-toggle:checked ~ .color-theme-wrapper
+#menu li:not(.some) a:hover {
+  color: var(--color-white);
+}
+
+#theme-toggle:checked ~ .color-theme-wrapper
+#menu li:not(.some) a::after {
+  border-bottom-color: 2px solid var(--color-white);
+}
+
+#theme-toggle:checked ~ .color-theme-wrapper
+#menu li.some a:hover {
+  background-color: var(--color-white);
+  color: var(--color-black);
+}
+
+#theme-toggle:checked ~ .color-theme-wrapper p {
+  color: var(--color-gray-lgt);
+}
+
+/* About */
+#theme-toggle:checked ~ .color-theme-wrapper
+.work-experience article,
+#theme-toggle:checked ~ .color-theme-wrapper
+.education article {
+  border-bottom-color: var(--color-gray-drk);
+}
+
+/* Projects */
+#theme-toggle:checked ~ .color-theme-wrapper
+section.projects .project {
+  box-shadow: 0px 2px 20px rgba(192, 178, 237, 0.2);
+}
+
+#theme-toggle:checked ~ .color-theme-wrapper
+.project-footer a {
+  color: var(--color-white);
+}
+
+#theme-toggle:checked ~ .color-theme-wrapper
+.project-footer a i {
+  color: var(--color-white);
+}
+
+#theme-toggle:checked ~ .color-theme-wrapper
+.project-footer a span {
+  color: var(--color-white);
+}
+
+#theme-toggle:checked ~ .color-theme-wrapper
+.project-footer a.project-repo i {
+  background-color: var(--color-white);
+  color: var(--color-black-drk);
+}
+
+/* Projects | Desktop Up */
+@media (width >= 62.5rem) {
+  #theme-toggle:checked ~ .color-theme-wrapper
+  section.projects .project {
+    box-shadow: 0px 2px 100px rgba(192, 178, 237, 0.2);
+  }
+}
