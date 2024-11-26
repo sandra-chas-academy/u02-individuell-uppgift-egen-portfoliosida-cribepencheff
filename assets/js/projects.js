@@ -2,7 +2,7 @@ import { fetchJSON } from "./services/fetchJSON.js";
 import { fetchMyRepositories } from "./services/fetchMyRepos.js";
 
 const projectsList = document.getElementById("projects");
-const localProjects = await fetchJSON("./assets/data/projects.json");
+const localProjects = await fetchJSON("./assets/data/cristian_pencheff_projects.json");
 
 console.log("FETCH: ", localProjects);
 
