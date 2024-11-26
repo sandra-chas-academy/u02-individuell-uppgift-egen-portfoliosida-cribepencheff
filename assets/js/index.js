@@ -1,4 +1,5 @@
 const themeToggle = document.getElementById("theme-toggle");
+const menuToggle = document.getElementById("menu-toggle");
 
 const themeSettings = localStorage.getItem("theme");
 if (themeSettings === "dark") {
@@ -14,4 +15,8 @@ themeToggle.addEventListener("change", () => {
     document.body.classList.remove("dark-theme");
     localStorage.setItem("theme", "light");
   }
+});
+
+menuToggle.addEventListener("change", () => {
+  document.body.classList.toggle("mobile-menu-active");
 });
