@@ -2,13 +2,13 @@
 @import "./partials/variables.css";
 @import "./partials/base.css";
 @import "./partials/typography.css";
-@import "./partials/theme-toggle.css"; /* Dark vs Light -mode */
 @import "./partials/header.css";
 @import "./partials/hero.css";
 @import "./partials/about.css";
 @import "./partials/tech-stack.css";
 @import "./partials/projects.css";
 @import "./partials/footer.css";
+@import "./partials/theme-toggle.css"; /* Dark vs Light -mode */
 
 /* Page Specific */
 body.contact main {
