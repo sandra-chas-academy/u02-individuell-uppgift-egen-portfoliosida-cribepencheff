@@ -104,7 +104,7 @@ label[for="theme-toggle"] .theme-dark-icon {
 
 /* Projects */
 #theme-toggle:checked ~ .color-theme-wrapper
-section.projects .project {
+section#projects .project {
   box-shadow: 0px 2px 20px rgba(192, 178, 237, 0.2);
 }
 
@@ -132,7 +132,7 @@ section.projects .project {
 /* Projects | Desktop Up */
 @media (width >= 62.5rem) {
   #theme-toggle:checked ~ .color-theme-wrapper
-  section.projects .project {
+  section#projects .project {
     box-shadow: 0px 2px 100px rgba(192, 178, 237, 0.2);
   }
 }

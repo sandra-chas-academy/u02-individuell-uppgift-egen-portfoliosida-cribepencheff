@@ -1,37 +1,37 @@
-section.projects {
+section#projects {
   display: grid;
   gap: var(--spacing-md);
   grid-template-columns: repeat(auto-fill, 100%);
 }
 
-section.projects .project {
+section#projects .project {
   overflow: hidden;
   border-radius: 1.5rem;
   box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.2);
 }
 
-section.projects .project-content {
+section#projects .project-content {
   padding: var(--spacing-md) var(--spacing-lg);
 }
 
-section.projects .project-title {
+section#projects .project-title {
   margin-top: 0;
   font-weight: 500;
   font-size: var(--header-size-lg);
   color: var(--color-black-drk);
 }
 
-section.projects .project-description {
+section#projects .project-description {
   font-weight: 300;
 }
 
-section.projects .project-tech-stack {
+section#projects .project-tech-stack {
   font-size: var(--font-size-md);
   color: var(--color-black);
   margin-bottom: 0;
 }
 
-section.projects .project-tech-stack span {
+section#projects .project-tech-stack span {
   font-size: 0.875rem;
   font-weight: 300;
 }
@@ -72,7 +72,7 @@ section.projects .project-tech-stack span {
 
 /* Tablet Up */
 @media (width >= 48rem) {
-  section.projects {
+  section#projects {
     gap: var(--spacing-md);
     grid-template-columns: repeat(auto-fill, calc((100% - var(--spacing-md)) / 2));
   }
@@ -80,18 +80,18 @@ section.projects .project-tech-stack span {
 
 /* Tablet Only */
 @media (width < 82.5rem) and (width >= 62.5rem) {
-  section.projects .project-title {
+  section#projects .project-title {
     font-size: var(--header-size-md);
   }
 }
 
 /* Desktop Up */
 @media (width >= 62.5rem) {
-  section.projects .project {
+  section#projects .project {
     box-shadow: 0px 2px 100px rgba(0, 0, 0, 0.2);
   }
 
-  section.projects {
+  section#projects {
     gap: var(--spacing-lg);
     grid-template-columns: repeat(auto-fill, calc((100% - var(--spacing-lg) * 2) / 3));
   }
