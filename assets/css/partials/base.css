@@ -59,6 +59,29 @@ footer > div {
   max-width: 1240px;
 }
 
+.cta {
+  font-size: inherit;
+  cursor: pointer;
+}
+
+.cta .icon::before {
+  margin-left: 0.75rem;
+}
+
+.cta-text {
+  color: var(--color-black);
+  border: none;
+  background: none;
+}
+
+.cta-text:hover {
+  text-decoration: underline;
+}
+
+.cta-text:hover {
+  color: var(--color-black-drk);
+}
+
 /* Page specific */
 body main > section:first-child {
   margin-top: var(--spacing-lg);
@@ -66,6 +89,14 @@ body main > section:first-child {
 
 body.contact main > section:first-child {
   margin-top: var(--spacing-lg);
+}
+
+#loader {
+  position: absolute;
+  width: 100%;
+  margin-top: var(--spacing-xl);
+  display: flex;
+  justify-content: center;
 }
 
 /* Desktop up */
