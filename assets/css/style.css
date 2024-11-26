@@ -1,7 +1,6 @@
 @import "./partials/resets.css";
 @import "./partials/variables.css";
 @import "./partials/base.css";
-@import "./partials/fonts.css";
 @import "./partials/typography.css";
 @import "./partials/theme-toggle.css"; /* Dark vs Light -mode */
 @import "./partials/header.css";

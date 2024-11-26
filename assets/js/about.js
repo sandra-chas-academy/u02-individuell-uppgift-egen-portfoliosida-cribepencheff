@@ -28,7 +28,9 @@ async function displayResume() {
       </h3>
       <h4 class="job-project__title">
         <i class="fa-solid fa-building"></i>
-        ${item.workplace}
+        ${item.homepage ? `
+          <a href="${item.homepage}" target="_blank" rel="noopener noreferrer">${item.workplace}</a>
+          ` : item.workplace}
       </h4>
       <p class="job-project__location">
         <i class="fa-solid fa-location-dot"></i>

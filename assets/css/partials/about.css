@@ -1,3 +1,8 @@
+.work-experience a {
+  color: var(--color-black);
+  text-decoration: underline;
+}
+
 .work-experience article,
 .education article {
   display: flex;
