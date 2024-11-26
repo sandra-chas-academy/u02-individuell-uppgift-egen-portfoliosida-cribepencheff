@@ -5,6 +5,7 @@ const educationEl = document.getElementById("education-list");
 const showMoreWorkBtn = workExperienceEl.parentElement.querySelectorAll(".show-more")[0];
 
 let displayLimit = 3;
+let isExpanded = false;
 let workExperienceData = []
 let educationData = []
 
@@ -16,6 +17,7 @@ async function displayResume() {
   const workExperienceItems = workExperienceData.slice(0, displayLimit);
 
   /* Work Experience */
+  workExperienceEl.innerHTML = "";
   workExperienceItems.forEach(item => {
     const itemEl = document.createElement("article");
 
@@ -42,6 +44,7 @@ async function displayResume() {
   });
 
   /* Education */
+  educationEl.innerHTML = "";
   educationData.forEach(item => {
     const itemEl = document.createElement("article");
 
@@ -63,8 +66,11 @@ async function displayResume() {
     educationEl.appendChild(itemEl);
   });
 
-  if (workExperienceData.length > displayLimit) {
+  if (workExperienceData.length > 3) {
     showMoreWorkBtn.classList.remove("hide");
+    showMoreWorkBtn.innerHTML = isExpanded ?
+      `Show Less<i class="icon fa-solid fa-arrow-up"></i>` :
+      `Show more<i class="icon fa-solid fa-arrow-down"></i>`;
   } else {
     showMoreWorkBtn.classList.add("hide");
   }
@@ -72,7 +78,14 @@ async function displayResume() {
 
 function showMoreHandler(e) {
   e.preventDefault();
-  displayLimit = workExperienceData.length;
+  if (isExpanded) {
+    displayLimit = 3;
+    isExpanded = false;
+  } else {
+    displayLimit = workExperienceData.length;
+    isExpanded = true;
+  }
+
   displayResume();
 }
 
