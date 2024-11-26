@@ -1,10 +1,8 @@
 import { fetchJSON } from "./services/fetchJSON.js";
-import { fetchMyRepositories } from "./services/fetchMyRepos.js";
+import { fetchMyRepositories } from "./services/fetchMyRepositories.js";
 
 const projectsList = document.getElementById("projects");
 const localProjects = await fetchJSON("./assets/data/cristian_pencheff_projects.json");
-
-console.log("FETCH: ", localProjects);
 
 async function displayProjects() {
   const myRepositories = await fetchMyRepositories();
@@ -24,8 +22,6 @@ async function displayProjects() {
         url: repo.html_url,
         languages: Object.keys(languages).join(", "),
       });
-
-      console.log(reposWithLangs);
     } catch (error) {
       console.error(`Failed to fetch languages for ${repo.name}:`, error);
     }

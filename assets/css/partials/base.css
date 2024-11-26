@@ -91,6 +91,14 @@ body.contact main > section:first-child {
   margin-top: var(--spacing-lg);
 }
 
+#loader {
+  position: absolute;
+  width: 100%;
+  margin-top: var(--spacing-xl);
+  display: flex;
+  justify-content: center;
+}
+
 /* Desktop up */
 @media (width >= 75rem) {
   body main > section:first-child {

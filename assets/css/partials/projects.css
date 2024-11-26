@@ -1,4 +1,5 @@
 section#projects {
+  position: relative;
   display: grid;
   gap: var(--spacing-md);
   grid-template-columns: repeat(auto-fill, 100%);
