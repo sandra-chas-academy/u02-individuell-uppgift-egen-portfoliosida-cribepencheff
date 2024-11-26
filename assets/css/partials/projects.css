@@ -3,6 +3,7 @@ section#projects {
   display: grid;
   gap: var(--spacing-md);
   grid-template-columns: repeat(auto-fill, 100%);
+  min-height: 3rem;
 }
 
 section#projects .project {

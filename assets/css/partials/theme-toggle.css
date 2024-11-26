@@ -59,7 +59,8 @@ body.dark-theme section#projects .project-title {
   color: var(--theme-drk-headings);
 }
 
-body.dark-theme .work-experience a {
+body.dark-theme .work-experience a,
+body.dark-theme .education a {
   color: var(--color-gray-lgt);
 }
 
