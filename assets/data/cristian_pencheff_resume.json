@@ -1,0 +1,116 @@
+{
+  "work_experience": [
+    {
+      "title": "Graphic Designer & Frontend Developer",
+      "workplace": "Yabie AB / Cliento.com",
+      "homepage": "https://www.cliento.com/",
+      "location": "Stockholm, Sweden",
+      "duration": "2023 - 2023.Q4",
+      "detail": "Full-time"
+    },
+    {
+      "title": "Frontend Lead & Graphic Designer",
+      "workplace": "Nvrmind AB",
+      "homepage": "https://www.nvrmind.se/",
+      "location": "Stockholm, Sweden",
+      "duration": "2021 - 2023",
+      "detail": "Full-time"
+    },
+    {
+      "title": "Frontend Lead & Graphic Designer",
+      "workplace": "Reform Society AB / Reform Experience",
+      "homepage": "https://www.reformsociety.se/",
+      "location": "Stockholm, Sweden",
+      "duration": "2018 - 2021",
+      "detail": "Full-time"
+    },
+    {
+      "title": "Frontend Lead & Graphic Designer",
+      "workplace": "Reform Society AB / Reform Dev",
+      "homepage": "https://www.reformsociety.se/",
+      "location": "Stockholm, Sweden",
+      "duration": "2016 - 2018",
+      "detail": "Full-time"
+    },
+    {
+      "title": "Frontend Developer & Graphic Designer",
+      "workplace": "Reformklubben i Stockholm AB",
+      "homepage": "https://www.reformsociety.se/",
+      "location": "Stockholm, Sweden",
+      "duration": "2015 - 2016",
+      "detail": "Full-time"
+    },
+    {
+      "title": "Founder, Web developer & Graphic Designer",
+      "workplace": "Wize Creative AB",
+      "location": "Stockholm, Sweden",
+      "duration": "2011 - 2015",
+      "detail": "Full-time"
+    },
+    {
+      "title": "Music Producer/Songwriter & Web developer",
+      "workplace": "Self-employed",
+      "location": "Stockholm, Sweden",
+      "duration": "2001 - 2011",
+      "detail": "Self-employed"
+    },
+    {
+      "title": "Web developer & Graphic Designer",
+      "workplace": "Abel & Baker",
+      "location": "Stockholm, Sweden",
+      "duration": "2000 - 2001",
+      "detail": "Full-time"
+    },
+    {
+      "title": "Web developer & Graphic Designer",
+      "workplace": "Starlet Deluxe AB",
+      "location": "Stockholm, Sweden",
+      "duration": "1999 - 2000",
+      "detail": "Full-time"
+    },
+    {
+      "title": "Web developer & Graphic Designer",
+      "workplace": "Nation Wide Digital Media",
+      "location": "Stockholm, Sweden",
+      "duration": "1998 - 1999",
+      "detail": "Full-time"
+    }
+  ],
+  "education": [
+    {
+      "title": "Avid Media Composer Specialist",
+      "workplace": "Avid",
+      "homepage": "https://www.credly.com/badges/27edeb9b-2a81-4ce3-b99c-e6d44f6ed34e/",
+      "location": "Stockholm, Sweden",
+      "duration": "2024.Q2 - 2024.Q3",
+      "detail": "Full-time",
+      "credits": "Avid Certified | Media Composer Specialist",
+      "skills": [
+        "Avid Media Composer",
+        "Apple Final Cut Pro",
+        "Adobe Premiere Pro",
+        "DaVinci Resolve",
+        "Adobe After Effects"
+      ]
+    },
+    {
+      "title": "Kort YH-kurs i TypeScript",
+      "workplace": "Medieinstitutet",
+      "homepage": "https://medieinstitutet.se/utbildningar/typescript/",
+      "location": "Stockholm, Sweden",
+      "duration": "2024.Q1 - 2024.Q2",
+      "detail": "Part-time",
+      "credits": "25 YH-poäng"
+    },
+    {
+      "title": "Upper Secondary School, Esthetic Program, Art and Design",
+      "workplace": "Tensta Gymnasium",
+      "location": "Stockholm, Sweden",
+      "duration": "1994 - 1997",
+      "detail": "Full-time",
+      "skills": [
+        "Final Project: Developed a comprehensive guide on how to code and publish a webpage"
+      ]
+    }
+  ]
+}
