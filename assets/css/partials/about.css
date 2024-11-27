@@ -1,0 +1,71 @@
+.work-experience a,
+.education a {
+  color: var(--color-black);
+  text-decoration: underline;
+}
+
+.work-experience article,
+.education article {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  column-gap: var(--spacing-lg);
+  margin-block: var(--spacing-lg);
+  padding-bottom: var(--spacing-lg);
+  border-bottom: 2px solid var(--color-gray-lgt);
+}
+
+.work-experience article i,
+.education article i {
+  margin-right: var(--spacing-xs);
+}
+
+.work-experience article > *:not(.job-title),
+.education article > *:not(.education__degree) {
+  font-weight: 600;
+}
+
+.job-title,
+.education__degree {
+  flex-basis: 100%;
+  font-weight: 400;
+  color: var(--color-gray-drk);
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.job-project__title,
+.job-project__location,
+.job-project__duration,
+.education__school,
+.education__duration {
+  flex-basis: calc((100% - var(--spacing-lg)) / 2);
+  font-size: var(--font-size-sm);
+  color: var(--color-gray);
+  margin-block: var(--spacing-sm) 0;
+}
+
+.job-project__duration,
+.education__duration {
+  text-align: right;
+}
+
+/* Mobile Up */
+@media (width >= 56rem) {
+  .job-project__title,
+  .job-project__location,
+  .job-project__duration {
+    flex-basis: calc((100% - var(--spacing-lg) * 2) / 3);
+    font-size: var(--font-size-sm);
+    color: var(--color-gray);
+  }
+}
+
+/* Mobile Down */
+@media (width < 56rem) {
+  .job-project__location {
+    order: 3;
+  }
+}

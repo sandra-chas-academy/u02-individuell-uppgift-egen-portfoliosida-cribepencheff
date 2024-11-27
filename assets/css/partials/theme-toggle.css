@@ -1,0 +1,147 @@
+#theme-toggle {
+  display: none;
+}
+
+label[for="theme-toggle"] {
+  position: fixed;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--font-size-lg);
+  bottom: var(--spacing-md);
+  right: var(--spacing-md);
+  width: 1.72rem;
+  height: 1.72rem;
+  border-radius: 100%;
+  backdrop-filter: blur(10px);
+  cursor: pointer;
+}
+
+label[for="theme-toggle"] {
+  background-color: rgba(255, 255, 255, .2);
+  backdrop-filter: blur(10px);
+  color: var(--color-black);
+  border: 2px solid var(--color-black);
+}
+
+body:not(.dark-theme)
+label[for="theme-toggle"] .theme-light-icon {
+  display: none;
+}
+
+body.dark-theme
+label[for="theme-toggle"] {
+  background-color: rgba(46, 46, 60, .2);
+  color: var(--color-yellow);
+  border: 2px solid var(--color-yellow);
+}
+
+body.dark-theme
+label[for="theme-toggle"] .theme-dark-icon {
+  display: none;
+  background-color: var(--theme-drk-bg);
+  border: 2px solid var(--color-yellow);
+}
+
+body.dark-theme,
+body.dark-theme #menu {
+  background-color: var(--theme-drk-bg);
+}
+
+body.dark-theme h1,
+body.dark-theme h2,
+body.dark-theme h3,
+body.dark-theme h4,
+body.dark-theme h5,
+body.dark-theme h6,
+body.dark-theme section#projects .project-title {
+  color: var(--theme-drk-headings);
+}
+
+body.dark-theme .work-experience a,
+body.dark-theme .education a {
+  color: var(--color-gray-lgt);
+}
+
+/* Navigation */
+body.dark-theme
+.menu__toggle-icon i {
+  color: var(--color-gray-lgt);
+}
+
+body.dark-theme
+#menu li a {
+  color: var(--color-gray-lgt);
+}
+
+body.dark-theme
+#menu li:not(.some) a:hover {
+  color: var(--color-white);
+}
+
+body.dark-theme
+#menu li:not(.some) a::after {
+  border-bottom-color: 2px solid var(--color-white);
+}
+
+body.dark-theme
+#menu li.some a:hover {
+  background-color: var(--color-white);
+  color: var(--color-black);
+}
+
+body.dark-theme p,
+body.dark-theme section#projects .project-tech-stack {
+  color: var(--color-gray-lgt);
+}
+
+/* About */
+body.dark-theme
+.work-experience article,
+body.dark-theme
+.education article {
+  border-bottom-color: var(--color-gray-drk);
+}
+
+/* Projects */
+body.dark-theme
+section#projects .project {
+  box-shadow: 0px 2px 20px rgba(192, 178, 237, 0.2);
+}
+
+body.dark-theme
+.project-footer a {
+  color: var(--color-white);
+}
+
+body.dark-theme
+.project-footer a i {
+  color: var(--color-white);
+}
+
+body.dark-theme
+.project-footer a span {
+  color: var(--color-white);
+}
+
+body.dark-theme
+.project-footer a.project-repo i {
+  background-color: var(--color-white);
+  color: var(--color-black-drk);
+}
+
+body.dark-theme
+#random-connection {
+  background-color: var(--theme-drk-bg);
+  box-shadow: 0px 2px 20px rgba(192, 178, 237, 0.2);
+  color: var(---color-white);
+}
+
+/* Projects | Desktop Up */
+@media (width >= 62.5rem) {
+  body.dark-theme
+  section#projects .project {
+    box-shadow: 0px 2px 100px rgba(192, 178, 237, 0.2);
+  }
+}

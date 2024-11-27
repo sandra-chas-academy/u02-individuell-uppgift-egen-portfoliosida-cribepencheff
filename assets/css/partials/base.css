@@ -1,0 +1,126 @@
+body {
+  background-color: var(--color-white);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1300px;
+  min-height: 100dvh;
+  margin: 0 auto;
+}
+
+header,
+main,
+footer {
+  max-width: 100%;
+  margin-inline: var(--spacing-md);
+}
+
+span.label {
+  display: inline-block;
+  align-content: center;
+  width: 100%;
+  max-width: 5.25rem;
+  height: 1.5rem;
+  font-size: var(--font-size-xs);
+  line-height: 1;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 50vh;
+  padding: var(--spacing-xs);
+  background-color: var(--color-green-lgt);
+  color: var(--color-green);
+}
+
+body main.narrow ,
+body main .intro-section {
+  max-width: 44rem;
+}
+
+/* Tablet Only */
+@media (width < 90rem) and (width >= 62.5rem) {
+  header,
+  main,
+  footer {
+    margin-inline: var(--spacing-lg);
+  }
+}
+
+/* Tablet Down */
+@media (width >= 75rem) {
+  header,
+  main,
+  footer {
+    margin-inline: var(--spacing-xl);
+  }
+}
+
+header > nav,
+main > section,
+footer > div {
+  width: 100%;
+  max-width: 1240px;
+}
+
+.cta {
+  font-size: inherit;
+  cursor: pointer;
+}
+
+.cta .icon::before {
+  margin-left: 0.75rem;
+}
+
+.cta-text {
+  color: var(--color-black);
+  border: none;
+  background: none;
+}
+
+.cta-text:hover {
+  text-decoration: underline;
+}
+
+.cta-text:hover {
+  color: var(--color-black-drk);
+}
+
+/* Page specific */
+body main > section:first-child {
+  margin-top: var(--spacing-lg);
+}
+
+body.contact main > section:first-child {
+  margin-top: var(--spacing-lg);
+}
+
+#loader {
+  position: absolute;
+  width: 100%;
+  margin-top: var(--spacing-lg);
+  display: flex;
+  justify-content: center;
+}
+
+#loader img {
+  opacity: 0.6;
+}
+
+/* Desktop up */
+@media (width >= 75rem) {
+  body main > section:first-child {
+    margin-top: calc(var(--spacing-xl) * 1.25);
+  }
+
+  body.contact main > section:first-child {
+    margin-top: calc(var(--spacing-xl) * 3);
+  }
+}
+
+/* Tablet Only */
+@media (width < 75rem) and (width >= 48rem) {
+  body.contact main > section:first-child {
+    margin-top: calc(var(--spacing-xl) * 1.25);
+  }
+}
