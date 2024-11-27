@@ -80,6 +80,7 @@ async function displayResume() {
   }
 }
 
+/* Show more - Work Experience */
 function showMoreHandler(e) {
   e.preventDefault();
   if (isExpanded) {
