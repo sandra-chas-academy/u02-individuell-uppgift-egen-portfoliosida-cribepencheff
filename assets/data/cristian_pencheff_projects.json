@@ -1,17 +1,16 @@
 [
   {
-    "id": 1,
+    "id": "cliento_com",
     "name": "Cliento.com",
-    "description": "Responsiv hemsida för Cliento som beskriver appens funktioner för kund-, projekt- och uppgiftshantering. Designad för alla teamstorlekar.",
+    "description": "Responsive website, showcasing app features for client, project, and task management. Designed for teams of all sizes.",
     "homepage" : "https://www.cliento.com",
     "languages": "Astro.js, Typescript, Figma"
   },
   {
-    "id": 2,
-    "name": "u03-quiz-app 2",
-    "description": "A quiz app built with HTML, CSS, and JavaScript. Features educational characters, dynamic questions, and JSON-based data storage.",
-    "homepage" : "https://chas-team-5.github.io/u03-quiz-app/",
-    "languages": "JavaScript, HTML, CSS",
-    "url": "https://github.com/cribepencheff/u03-quiz-app"
+    "id": "nvrmind_se",
+    "name": "Nvrmind.se",
+    "description": "Responsive site for a tech consultancy, highlighting expertise in system development, analytics, and digital transformation.",
+    "homepage" : "https://www.nvrmind.se/",
+    "languages": "Craft CMS, TWIG, JavaScript, Figma"
   }
 ]

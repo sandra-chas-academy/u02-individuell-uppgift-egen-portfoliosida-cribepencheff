@@ -1,3 +1,7 @@
+body {
+  background-color: var(--color-white);
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -94,9 +98,13 @@ body.contact main > section:first-child {
 #loader {
   position: absolute;
   width: 100%;
-  margin-top: var(--spacing-xl);
+  margin-top: var(--spacing-lg);
   display: flex;
   justify-content: center;
+}
+
+#loader img {
+  opacity: 0.6;
 }
 
 /* Desktop up */

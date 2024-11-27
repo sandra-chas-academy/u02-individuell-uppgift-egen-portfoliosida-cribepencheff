@@ -1,4 +1,5 @@
-.work-experience a {
+.work-experience a,
+.education a {
   color: var(--color-black);
   text-decoration: underline;
 }

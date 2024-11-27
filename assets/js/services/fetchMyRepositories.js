@@ -5,7 +5,7 @@ loader.classList.remove("hide");
 
 async function fetchMyRepositories() {
   const url = `https://api.github.com/users/${username}/repos`;
-  const minLoadingTime = new Promise(resolve => setTimeout(resolve, 2500));
+  const minLoadingTime = new Promise(resolve => setTimeout(resolve, 2000));
 
   try {
     const response = await fetch(url);

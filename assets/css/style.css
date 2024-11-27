@@ -2,13 +2,13 @@
 @import "./partials/variables.css";
 @import "./partials/base.css";
 @import "./partials/typography.css";
-@import "./partials/theme-toggle.css"; /* Dark vs Light -mode */
 @import "./partials/header.css";
 @import "./partials/hero.css";
 @import "./partials/about.css";
 @import "./partials/tech-stack.css";
 @import "./partials/projects.css";
 @import "./partials/footer.css";
+@import "./partials/theme-toggle.css"; /* Dark vs Light -mode */
 
 /* Page Specific */
 body.contact main {
@@ -26,4 +26,47 @@ body.contact main p {
 body.contact main h1,
 body.contact main p {
   font-weight: 600;
+}
+
+#random-connection {
+  position: fixed;
+  display: flex;
+  gap: var(--spacing-sm);
+  background-color: var(--color-white);
+  margin: var(--spacing-md) auto;
+  padding: var(--spacing-sm) calc(var(--spacing-md) * 0.825);
+  left: var(--spacing-md);
+  right: var(--spacing-md);
+  bottom: 0;
+  width: fit-content;
+  border: 1.5px solid var(--color-gray);
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 1.5rem;
+  font-size: var(--font-size-md);
+}
+
+#random-connection > * {
+  line-height: 1.6;
+}
+
+#random-connection-text {
+  margin: 0;
+}
+
+#close-random-connection {
+  cursor: pointer;
+}
+
+/* Tablet Up */
+@media (width >= 56rem) {
+  #random-connection {
+    margin-bottom: var(--spacing-lg);
+  }
+}
+
+/* Desktop Up */
+@media (width >= 85.5rem) {
+  #random-connection {
+    margin-bottom: var(--spacing-xl);
+  }
 }
