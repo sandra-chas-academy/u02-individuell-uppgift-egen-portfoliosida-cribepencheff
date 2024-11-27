@@ -97,5 +97,9 @@ svg, img {
 
 /* Helper classes */
 .hide {
-  display: none;
+  display: none !important;
+}
+
+.text-right {
+  text-align: right;
 }

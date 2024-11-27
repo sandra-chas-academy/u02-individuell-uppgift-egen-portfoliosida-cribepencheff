@@ -7,7 +7,11 @@
     <link rel="stylesheet" href="./assets/webfonts/fontawesome/regular.min.css">
     <link rel="stylesheet" href="./assets/webfonts/fontawesome/brands.min.css">
     <link rel="stylesheet" href="./assets/webfonts/fontawesome/solid.min.css">
+
+    <link rel="preload" href="./assets/css/partials/fonts.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="./assets/css/partials/fonts.css"></noscript>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <script type="module" src="./assets/js/index.js"></script>
 
     <link rel="icon" type="image/png" href="./assets/favicon/favicon-48x48.png" sizes="48x48">
     <link rel="icon" type="image/svg+xml" href="./assets/favicon/favicon.svg">
@@ -153,6 +157,10 @@
         </div>
       </footer>
     </div>
+  </div>
+  <div id="random-connection" class="hide">
+    <p id="random-connection-text"></p>
+    <i id="close-random-connection" class="fa-regular fa-circle-xmark"></i>
   </div>
   </body>
 </html>

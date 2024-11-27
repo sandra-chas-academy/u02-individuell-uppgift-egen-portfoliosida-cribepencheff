@@ -1,0 +1,16 @@
+[
+  {
+    "id": "cliento_com",
+    "name": "Cliento.com",
+    "description": "Responsive website, showcasing app features for client, project, and task management. Designed for teams of all sizes.",
+    "homepage" : "https://www.cliento.com",
+    "languages": "Astro.js, Typescript, Figma"
+  },
+  {
+    "id": "nvrmind_se",
+    "name": "Nvrmind.se",
+    "description": "Responsive site for a tech consultancy, highlighting expertise in system development, analytics, and digital transformation.",
+    "homepage" : "https://www.nvrmind.se/",
+    "languages": "Craft CMS, TWIG, JavaScript, Figma"
+  }
+]
