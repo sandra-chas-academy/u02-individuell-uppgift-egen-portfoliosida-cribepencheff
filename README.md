@@ -1,77 +1,55 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/Y0f03qEq)
-# Instruktioner
+# u02, Individuell uppgift, Egen portfoliosida (VG)
 
-Denna uppgift går ut på att du bygga vidare uppgift u01 - Portfoliosida utifrån designskiss med Javascript. Du är nu fri att ändra till egen design / layout, samt eget innehåll. Det är dock viktigt att du behåller en sektion för CV ("About me") och en sektion med projekt ("Projects") eftersom du ska vidareutveckla sidan med Javascript på dessa sektioner. 
+[🔗  Live Preview](https://fjs24-u02-cristian-pencheff.netlify.app/)
 
-## Vad du ska göra
+[📄  Svar på frågor – Inlämningsarbete u02](https://docs.google.com/document/d/1vcKj2IuwESKlv-fZ1EfF7OGI73gomNWtHHjrDVQYto0/edit?usp=drive_link)
 
-Du ska bygga vidare på  u01 - Portfoliosida utifrån designskiss med Javascript. och se till att du följer följande kravställningar: 
+Det här projektet är en vidareutveckling av uppgiften [u01 Portfoliosida utifrån designskiss (HTML/CSS)](https://fjs24-u01-cristian-pencheff.netlify.app/). Målet har varit att bygga vidare på portfoliosajten med JavaScript och JSON för att göra den mer interaktiv och dynamisk.  
 
-### CV i en fil:
-Dina egna utbildningar och tidigare arbetsplatser ska nu ersätta "About me"-sidan. Ta med så mycket som möjligt att ditt "riktiga CV", men iallafall minst tre poster av varje.
-Vilka utbildningar du läst och vilka tidigare arbeten du haft ska ligga i en separat fil i JSON-format. Denna JSON-fil ska läsas och och generera ditt CV på den tidigare motsvarigheten av "About me" sidan.
+### Interaktiva Scripts:
+För att öka interaktiviteten på sajten har jag implementerat följande funktioner med JavaScript:  
 
+ * **Visa Fler / Visa Färre arbetsplatser (CV-sektionen, About Me-sidan)**  
+Här laddas de senaste tre arbetsplatserna, och om det finns fler än tre, visas en knapp för att visa fler. När alla är synliga kan användaren fälla ihop listan tillbaka till de ursprungliga tre.
 
-### Interaktiva scripts:
-Din CV-sida ska innehålla minst två interaktiva JavaScript. Exempel kan vara en modal, slideshow, scroll-effekt, dölja/visa element, o.s.v
+ * **Dark/Light Theme Toggle**  
+Jag har implementerat en temaomkopplare (dark/light theme) med JavaScript istället för att enbart använda checkbox och CSS. Besökarens val sparas i localStorage för att bevara temat även vid sidomläsningar.
+
+ * **Mobil Navigering (Burger Icon)**  
+Jag använder JavaScript för att visa och dölja navigeringen i mobilt läge istället för att enbart använda CSS som jag gjorde tidigare. Detta ger en bättre användarupplevelse på små skärmar.
+
+ * **Sticky Notification Bar**  
+Jag har lagt till en sticky notification bar som triggas efter att besökaren varit på sidan i 4 sekunder. Innehållet i baren växlar var 8:e sekund och uppmanar användaren att kontakta mig via email, LinkedIn eller Spotify. Användaren har möjlighet att stänga ner den, och den kommer att återaktiveras när en ny sida besöks eller vid en omladdning.  
 
 ### Portfolio:
- Du publicerar minst två uppgifter / projekt från tidigare eller nuvarande studier / arbete inom HTML /CSS
+Min portfolio samlar projekt från en JSON-fil med information om tidigare arbetsuppgifter och publika projekt från min GitHub. Jag hämtar dessa projekt via GitHub API och visar endast de som har en hemsideadress kopplad. Detta gör det enkelt att styra vilket innehåll som visas och även att fånga upp och visa projektets hemsideadress.  
 
-### 👉  VG-krav
+En loader visas medan projekten hämtas från GitHub API.  
 
-Din portfolio ska utökas så att den hämtar in publika projekt som finns i din egen Github via API. Den ska visa dessa projekt i din portfolio med namn och beskrivning.
-
-Du får gärna ha både dessa projekt och andra som genereras utifrån JSON-data om du känner för det, eller så ersätter du projekten så det bara är dina Github-projekt. Eventuellt kan du behöva komplettera datan från Github API med t.ex bilder ifrån JSON-datan.
-
-När hämtningen av projekten sker ska det finnas information om att projekten håller på att ladda in så att besökaren inte undrar varför sidan först är tom.
-
-
+### GitHub Workflow:
+Jag använder en developer-branch där jag arbetar och testar nya funktioner, och sedan mergar jag till main-branchen när jag är klar med ändringarna.
 
 ### Tekniska krav:
-* Validerad med 0 fel på https://validator.w3.org
-* Inga errors i Console
+ * Validerad med 0 fel på [W3C Validator](https://validator.w3.org/about.html)  
 
-### Sammantfattning av projekt + teoretiska frågor
+ * Inga fel i webbläsarens konsol  
 
-1. Du sammanfattar ditt projekt i README.md och reflekterar kring styrkor och ev brister. Max 500 ord.
-2. Du svarar på dessa frågor (max 800 ord):
+ * Projektet är publicerat på [Netlify](https://fjs24-u02-cristian-pencheff.netlify.app/) via en fork av mitt GitHub-repo.  
 
-Vad kan man utveckla m.h.a av Javascript inom frontend?
-Vad är JSON och hur används det inom frontend?
-Vad är HTTP och varför bör man som frontendutvecklare ha kunskap om det och dess protokoll?
+### Styrkor:
+ * Jag tycker att underlaget från u01-projektet gav en bra projektstruktur, vilket gjorde det enkelt att uppdatera sajten med nya JavaScript-funktioner.  
 
+ * Genom arbetet med u03 (Quiz App) har jag lärt mig att arbeta med JS-moduler, vilket jag nu har implementerat i det här projektet. Det har gjort arbetsflödet smidigare och koden mer lättnavigerad.  
 
-## Kriterier för bedömning
+ * Att hämta och hantera JSON-data var något vi övade på i u03, vilket har varit väldigt användbart i det här projektet och har förbättrat min kodhantering och datahantering.  
 
+### Brister:
+ * Jag hade lite svårt att komma på interaktiva JavaScript-funktioner som tillförde något extra till sajten, men är slutligen rätt nöjd med de lösningar jag har implementerat. 
 
-Icke Godkänd (IG), Godkänd (G) eller Väl Godkänd (VG)
+ * En del av den JavaScript jag saknade för u01-projektet har jag nu lyckats implementera i det här projektet, vilket känns bra.  
 
-### Godkänd (G)
-Din portfolio-sida uppfyller alla krav enligt kravspecifikationen.
-Du visar att du kan utan allvarliga brister eller missar utveckla denna portfoliosida enligt kraven
-Du sammanfattar ditt projekt samt ger ett översiktligt och korrekt svar på frågorna
+ * Framöver skulle jag vilja göra om CSS till SCSS för att bättre organisera stilarna i partials och minifiera filerna för att öka prestandan och minska anropen.  
 
+ * Jag skulle också vilja minifiera JavaScript-filerna för att förbättra prestandan ytterligare.  
 
-### Väl Godkänd (VG)
-
-Din portfolio-sida uppfyller alla krav enligt kravspecifikationen samt VG-kraven
-Du uppvisar en mer avancerad förståelse för Git genom att jobba med en developer-branch som du sedan mergar i main
-Du visar att du kan utan brister, eller bara i sådan omfattning att de knappt märks eller påverkar slutresultatet
-
-
-### Börja uppgift / Din inlämning
-* Du börjar och lämnar in din uppgift genom Github Classroom på denna länk.
-* Återkoppling ges i Canvas
-
-
-
-
-
-
-
-
-
-
-
-# 
+ * Jag funderar på att skapa en undersida för varje projekt där jag kan presentera dem mer på djupet.  
